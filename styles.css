@@ -1,33 +1,3 @@
-/* .product-device {
-    position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
-    background-color: #333;
-    border-radius: 21px;
-    transform: rotate(30deg);
-}
-
-.product-device::before {
-    position: absolute;
-    top: 10%;
-    right: 10px;
-    bottom: 10%;
-    left: 10px;
-    content: "";
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 5px;
-}
-
-.product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #e5e5e5;
-} */
-
 body {
     margin: 0;
     padding: 0;
@@ -37,6 +7,27 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.btn {
+    /* background-color: #305252; */
+    background-color: #7161ef;
+    /* background-color: #06a77d; */
+    /* background-color: #069e2d; */
+    /* background-color: #e5e5e5; */
+    border-color: #7161ef;
+    ;
+}
+
+.btn:hover {
+    background-color: #06a77d;
+    border-color: #06a77d;
+}
+
+/* .color {
+    background: rgb(113, 97, 239);
+    background: linear-gradient(90deg, rgba(113, 97, 239, 0.7371323529411764) 32%, rgba(13, 189, 255, 1) 100%);
+    color: white;
+} */
 
 /* Featurettes ------------------------- */
 
@@ -51,26 +42,78 @@ body {
     letter-spacing: -.05rem;
 }
 
+#hero {
+    text-align: center;
+}
 
-/* RESPONSIVE CSS
+#left-content {
+    padding-top: 2em;
+}
+
+#right-content {
+    padding-bottom: 2em;
+}
+
+/* Media Queries
 -------------------------------------------------- */
 
-@media (min-width: 40em) {
-
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #hero {
+        text-align: center;
     }
 
-    .featurette-heading {
-        font-size: 50px;
+    #hero-sign {
+        justify-content: center
+    }
+
+    #mock-div {
+        margin: auto;
+    }
+
+    #mock-div img {
+        width: 100%;
     }
 }
 
-@media (min-width: 62em) {
-    /* .featurette-heading {
-        margin-top: 7rem;
-    } */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #mock-div img {
+        max-width: 50%;
+    }
+
+    #left-content {
+        padding-top: 0px;
+    }
+}
+
+@media (min-width: 800px) {
+    #mock-div img {
+        max-width: 50%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #hero {
+        text-align: left;
+    }
+
+    #hero-sign {
+        justify-content: start
+    }
+
+    #mock-div img {
+        max-width: 100%;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #mock-div img {
+        max-width: 50%;
+    }
 }
