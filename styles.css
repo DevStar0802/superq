@@ -18,6 +18,10 @@ body {
     ;
 }
 
+.icon {
+    background-color: #06a77d;
+}
+
 .btn:hover {
     background-color: #06a77d;
     border-color: #06a77d;
@@ -46,6 +50,14 @@ body {
     text-align: center;
 }
 
+#hero-sign {
+    justify-content: center;
+}
+
+#app-store {
+    max-width: 50%;
+}
+
 #left-content {
     padding-top: 2em;
 }
@@ -54,18 +66,20 @@ body {
     padding-bottom: 2em;
 }
 
+#features {
+    padding-left: 3%;
+}
+
 /* Media Queries
 -------------------------------------------------- */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    #hero {
+    /* #hero {
         text-align: center;
-    }
+    } */
 
-    #hero-sign {
-        justify-content: center
-    }
+
 
     #mock-div {
         margin: auto;
@@ -84,6 +98,14 @@ body {
 
     #left-content {
         padding-top: 0px;
+    }
+
+    #app-store {
+        max-width: 25%;
+    }
+
+    #features {
+        padding-left: 0%;
     }
 }
 
