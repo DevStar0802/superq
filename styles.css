@@ -28,6 +28,16 @@
     background-color: #e5e5e5;
 } */
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* Featurettes ------------------------- */
 
 .featurette-divider {
