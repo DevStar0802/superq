@@ -8,6 +8,10 @@ body {
     margin-left: auto;
 }
 
+.nav-gold {
+    background-color: #DAA520;
+}
+
 .btn {
     /* background-color: #305252; */
     background-color: #7161ef;
