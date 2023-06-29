@@ -13,29 +13,21 @@ body {
 }
 
 .btn {
-    /* background-color: #305252; */
-    background-color: #7161ef;
-    /* background-color: #06a77d; */
-    /* background-color: #069e2d; */
-    /* background-color: #e5e5e5; */
-    border-color: #7161ef;
+    /* background-color: #7161ef; */
+    background-color: #bb4d00;
+    /* border-color: #7161ef; */
+    border-color: #bb4d00;
     ;
 }
 
 .icon {
-    background-color: #06a77d;
+    /* background-color: #06a77d; */
+    background-color: #DAA520;
 }
 
 .btn:hover {
-    background-color: #06a77d;
-    border-color: #06a77d;
+    border-color: #8f250c;
 }
-
-/* .color {
-    background: rgb(113, 97, 239);
-    background: linear-gradient(90deg, rgba(113, 97, 239, 0.7371323529411764) 32%, rgba(13, 189, 255, 1) 100%);
-    color: white;
-} */
 
 /* Featurettes ------------------------- */
 
@@ -74,16 +66,15 @@ body {
     padding-left: 3%;
 }
 
+.s-font {
+    font-family: 'Sonsie One', cursive;
+}
+
 /* Media Queries
 -------------------------------------------------- */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    /* #hero {
-        text-align: center;
-    } */
-
-
 
     #mock-div {
         margin: auto;
